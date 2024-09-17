@@ -1,0 +1,505 @@
+
+.page1{
+    padding: 0;
+    margin: 0;
+    background-image: url(colorpelete.jpg);
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.navbar{
+    background-color: rgba(33, 47, 33, 0.516);
+    position: fixed;
+    top: 20px;
+    
+}
+.navbar a{
+    color: rgb(14, 192, 14);
+    font-family: cursive;
+    text-indent: 5px;
+    
+}
+.navbar .navbar-brand {
+    font-size: 55px;
+}
+.navbar .navbar-brand span{
+    color: rgb(121, 228, 121);
+    
+}
+#navbarNav{
+    font-size: 18px;
+    
+}
+
+/* our service */
+.our{
+    background-image: linear-gradient(0deg, rgb(112, 240, 112),rgb(151, 214, 156),rgb(185, 227, 178));
+    height: 100vh;
+}
+.container .row .col-4 .card{
+    border: 1px solid rgb(151, 214, 156);
+    box-shadow: 3px 3px 3px;
+    margin: 20px;
+    background-color: rgba(145, 223, 153, 0.144);
+    padding-top: 15px;
+}
+.row .col-4 i{
+   height: 6rem; 
+   width: 6rem;
+   line-height: 6rem;
+   border-radius: 50%;
+   font-size: 2.5rem;
+   background: rgba(108, 164, 111, 0.47);
+   color: rgb(14, 74, 14);
+   padding-left: 30px;
+   margin: auto;
+}
+.service h2{
+    text-align: center;
+    color:  rgba(19, 94, 19, 0.793);
+    font-size: 44px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 20px;
+}
+.service span{
+    color: rgba(17, 202, 17, 0.914);
+    font-size: 45px;   
+}
+
+.card-body h5{
+    font-size: 20px;
+    color: rgb(7, 97, 7);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card-body p{
+    color: rgb(19, 66, 19);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+/* about us */
+
+.about{
+    height: 90vh;
+    background-image: linear-gradient(0deg , rgb(185, 227, 178),rgb(151, 214, 156),rgb(112, 240, 112));
+}
+
+.about h1{
+    text-align: center;
+    color: rgb(7, 97, 7);
+    padding: 30px;
+    padding-bottom: 50px;
+    font-size: 54px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.about span{
+    color: rgb(21, 199, 21);
+}
+.col-6 h2{
+    text-shadow: 1px 1.8px rgb(25, 50, 17);
+    color: rgb(19, 79, 17);
+    font-size: 38px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.col-6 p{
+    color: #083308;
+}
+.container .row .col-6 iframe{
+    border: 5px solid rgb(18, 48, 19);
+    box-shadow: 3px 3px 3px rgb(23, 48, 23);
+}
+
+
+
+
+
+/* gallery */
+.pos h1{
+    margin: 0;
+    padding-top: 30px;
+    background-color: rgb(185, 227, 178);
+    text-align: center;
+    color: #186629;
+    font-size: 55px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.pos h1 span{
+    color: rgb(14, 192, 14);
+}
+
+.containers{
+    background-image: linear-gradient(0deg, rgb(112, 240, 112),rgb(151, 214, 156),rgb(185, 227, 178));
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
+}
+
+.containere{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    height: 100vh;
+}
+.box{
+    height: 80vh;
+    flex: 1;
+    overflow: hidden;
+    transition: .5s;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+    line-height: 0;
+}
+.box >img{
+    width: 100%;
+    height: calc(100% - 10vh);
+    transition: .5s;
+}
+
+.box > span{
+    font-size: 3.8vh;
+    display: block;
+    text-align: center;
+    height: 10vh;
+    line-height: 2.6;
+}
+.box:hover{ 
+    flex:1 1 50%
+}
+
+.box:hover > img {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+/* our price */
+
+
+.page4{
+    height: 90vh;
+    background-image: linear-gradient(0deg , rgb(185, 227, 178),rgb(151, 214, 156),rgb(112, 240, 112));
+}
+.page4 h1{
+    text-align: center;
+    color: rgb(14, 192, 14);
+    font-size: 53px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.page4 span{
+    color: rgb(7, 97, 7);
+    font-size: 55px;
+    
+}
+.border-box{
+    margin-top: 50px;
+    margin-left: 110px;
+    display: flex;
+    gap: 100px;
+    
+}
+
+.border-box .box-1{
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px ;
+    padding: 20px;  
+   
+}
+.border-box .box-1:hover{
+    transform: scale(1.09);
+}
+
+.border-box h5{
+    color: rgb(18, 99, 18);
+    text-align: center;
+}
+.border-box h2{
+    color: rgb(18, 99, 18);
+    text-align: center;
+    margin-top: 12px;
+}
+
+.border-box ul{
+    list-style: disc;
+    color: darkgreen;
+    margin-top: 20px;
+
+}
+.border-box li{
+    line-height: 32px;
+}
+
+.border-box button{
+    border: 1px solid;
+    box-shadow: 1px 1px 1px;
+    border-radius: 9px;
+    margin-left: 30px;
+    background-color: rgba(61, 132, 61, 0.473);
+    color: rgb(8, 8, 8); 
+}
+
+
+
+
+/* review */
+.rev h1{
+    background: rgb(185, 227, 178);
+    margin: 0;
+    text-align: center;
+    color: rgb(14, 192, 14);
+    font-size: 53px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.review{
+    padding: 20px;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(0deg, rgb(112, 240, 112),rgb(151, 214, 156),rgb(185, 227, 178));
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;   
+}
+
+.review .card{
+    height: 250px;
+    width: 400px;
+    background-color: rgba(129, 185, 119, 0.182);
+    border: none; 
+    box-shadow: 3px 3px rgba(57, 52, 52, 0.075);
+}
+
+.review .card .user img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 10px;
+}
+
+.review .card .user .user-info{
+    position: absolute;
+    top: 15px;
+    left: 110px;
+    color: rgb(32, 86, 48);
+    
+}
+
+.review .card .user .user-info h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 38px;
+}
+.review .card .user .user-info .stars{
+    font-size: 15px;
+    position: relative;
+    top: -10px;
+}
+.review .card .user p{
+    color: rgb(30, 74, 41);
+    padding: 10px;
+}
+
+
+
+
+.contact {
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(0deg , rgb(185, 227, 178),rgb(151, 214, 156),rgb(112, 240, 112));
+    color: #153c12;
+}
+
+.contact .contact-box{
+    height: 500px;
+    width: 700px;
+    background-image: linear-gradient(0deg , rgb(185, 227, 178),rgb(151, 214, 156),rgb(112, 240, 112));
+    margin-left: 300px;
+    
+
+}
+
+.contact .registration-form{
+    position: relative;
+    top: 400px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+
+}
+.contact-box .registration-form h1{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+
+}
+.contact-box .registration-form p{
+    font-size: 20px;
+    margin: 15px 0;
+}
+.contact-box .registration-form input{
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+.contact-box .registration-form button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: #4cb458;
+    color: rgb(122, 22, 147);
+}
+.contact-box .registration-form button:hover{
+    color: red;
+} 
+
+
+
+
+/* .contact{
+    background-image: linear-gradient(0deg , rgb(185, 227, 178),rgb(151, 214, 156),rgb(112, 240, 112));
+    height: 100vh;
+    margin: 0;
+
+}
+.contact form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+
+.contact form input {
+    height:40px;
+}
+
+
+#text-area{
+    height: 200px;
+    width: 200px;
+} */
+
+
+
+
+
+
+/* .contact form{
+    min-width: 70rem;
+    margin: 5rem;
+    text-align: center;
+}
+
+.contact form .inputBox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.contact form .inputBox input,
+.contact form textarea{
+    width: 100%;
+    background: #93d89c89;
+    border-radius: .5rem;
+    padding: 1rem;
+    margin: .7rem 0;
+    font-size: 1.5rem;
+    color: #fff;
+    text-transform: none;
+
+}
+
+.contact form .inputBox input::placeholder,
+.contact form textarea::placeholder{
+    color: #eee;
+    text-transform: capitalize;
+}
+
+.contact form .inputBox input:focus,
+.contact form textarea:focus{
+    background: #444;
+}
+
+.contact form .inputBox input{
+    width: 49%;
+}
+.contatct form textarea{
+    resize: none;
+
+}
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, 0.5fr));
+    gap: 1.5rem;
+    margin: 50px;
+}
+
+.footer .box-container .box h3{
+    font-size: 2.5rem;
+    padding: 1rem 0;
+    color: #fff;
+}
+.footer .box-container .box a{
+    display: block;
+    font-size: 1.1rem;
+    padding: 1rem 0;
+    color: #eee;
+}
+
+.footer .box-container .box a i{
+    padding-right: .5rem;
+    color: #fff;
+}
+.footer .box-container .box a:hover i{
+    padding-right: 1rem;
+    color: #fff;
+}
+.footer .credit{
+    text-align: center;
+    border-top: .1rem solid #222;
+    color: #fff;
+    padding: 2rem;
+    padding-top: 2.5rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+.footer .credit span{
+    color: #fff;
+} */
+
+
+
+
+
+
+
+
